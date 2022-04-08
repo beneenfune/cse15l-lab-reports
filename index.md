@@ -1,4 +1,5 @@
 What's up dawg
+Here's the [formatting cheat sheet](https://commonmark.org/help/)
 
 *this is italics*
 
