@@ -37,7 +37,7 @@ you now have your terminal connected to a computer in the CSE basement-a step ne
 * "ls -a"
 > * used to view the contents of a directory, including the hidden files
 * "ls **directory**" 
-> * **directory** is "/home/linux/ieng6/cs15lsp22/**username**"- the **username** is from step 3 of step *Remotely Connecting*
+> * **directory** is "/home/linux/ieng6/cs15lsp22/**username**"-the **username** is from step 3 of step *Remotely Connecting*
 > * 
 * "cp /home/linex/ieng6/cs15lsp22/public/hello.txt ~/"
 > * used to copy files and directories
@@ -62,7 +62,7 @@ you now have an idea of how to run commands from your computer
 > javac WhereAmI.java
 > java WhereAmI
 > scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
-   * note: the password it asks for 
+   * note: the password it asks for is the same one from step 6 of step *Remotely Connecting*
 
 
 you now can copy files back and forth between computers: here, between the *client*, your computer, and the computer it's connected to in the CSE basement
