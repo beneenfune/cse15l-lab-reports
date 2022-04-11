@@ -51,13 +51,13 @@ You now have an idea of how to run commands from your computer.
 
 1. create a file called **WhereAmI.java* and paste the following into it:
 > class WhereAmI {
-  >public static void main(String[] args) {
-    >System.out.println(System.getProperty("os.name"));
-    >System.out.println(System.getProperty("user.name"));
-    >System.out.println(System.getProperty("user.home"));
-    >System.out.println(System.getProperty("user.dir"));
-  >}
->}
+    > public static void main(String[] args) {
+        > System.out.println(System.getProperty("os.name"));
+        > System.out.println(System.getProperty("user.name"));
+        > System.out.println(System.getProperty("user.home"));
+        > System.out.println(System.getProperty("user.dir"));
+   > }
+> }
 2. run it using the following lines successively:
 > javac WhereAmI.java
 > java WhereAmI
