@@ -5,7 +5,7 @@
 
 1. go to [Visual Studio Code](https://code.visualstudio.com/) and follow instructions to install the application based on which system you have, including OSX for Mac and Windows for PC
 
-you now have VScode downloaded to your computer
+You now have VScode downloaded to your computer.
 
 
 ## 2. Remotely Connecting
@@ -22,7 +22,7 @@ your **user@hostname** is your *username*@ieng6.ucsd.edu :
 6. in the Terminal, enter "ssh **cs15lsp22zzz@ieng6.ucsd.edu**" from step 3
 > * Answer yes to these messages by typing "yes" and pressing enter. When asked to enter password, enter the same password used to login into your course-specific account from step 1.
  
-you now have your terminal connected to a computer in the CSE basement-a step necessary to run commands on that computer in the basement from your computer
+You now have your terminal connected to a computer in the CSE basement-a step necessary to run commands on that computer in the basement from your computer.
 
 
 ## 3. Trying Some Commands
@@ -44,7 +44,7 @@ you now have your terminal connected to a computer in the CSE basement-a step ne
 * "cat /home/linex/ieng6/cs15lsp22/public/hello.txt"
 > * used to read the data from the file and prints the content of the file
 
-you now have an idea of how to run commands from your computer
+You now have an idea of how to run commands from your computer.
 
 ## 4. Moving Files with 'scp'
    * note: this step is a demonstration using an example file
@@ -65,7 +65,7 @@ you now have an idea of how to run commands from your computer
    * note: the password it asks for is the same one from step 6 of step *Remotely Connecting*
 
 
-you now can copy files back and forth between computers: here, between the *client*-your computer-and the computer it's connected to in the CSE basement
+You now can copy files back and forth between computers: here, between the *client*-your computer-and the computer it's connected to in the CSE basement.
 
 ## 5. Setting an SSH Key
 
@@ -76,7 +76,7 @@ you now can copy files back and forth between computers: here, between the *clie
 > ssh **cs15lsp22zzz@ieng6.ucsd.edu**
    * remember to replace the zzz with your personal 3 characters
 
-now you are able to use ssh or scp here without having to enter your password each time
+You now are able to use ssh or scp here without having to enter your password each time.
 
 ## 6. Optimizing Remote Running
 the following is one way to more quickly make a local edit to your file, copying it to the remote server, and then running it
@@ -91,3 +91,5 @@ using the file **WhereAmI.java** as an example:
 * cs15lsp22zzz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 
 * you can save and then for each one press the arrow key and enter-this reduces the number of key strokes to 2
+
+You are now familar with how to remote run more efficently.
