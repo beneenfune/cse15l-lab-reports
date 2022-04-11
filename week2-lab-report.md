@@ -23,7 +23,7 @@ your **user@hostname** is your *username*@ieng6.ucsd.edu :
 5. open Terminal using either Ctrl+' or the Terminal -> New Terminal option
 6. in the Terminal, enter "ssh **cs15lsp22zzz@ieng6.ucsd.edu**" from step 3
 > * Answer yes to these messages by typing "yes" and pressing enter. When asked to enter password, enter the same password used to login into your course-specific account from step 1.
-![Image](https://github.com/beneenfune/cse15l-lab-reports/blob/78d547e7029cf8e25debce4d38495ff1c102cf54/step%203%20screenshot.png)
+![Image](step 3 screenshot.png)
  
 You now have your terminal connected to a computer in the CSE basement-a step necessary to run commands on that computer in the basement from your computer.
 
