@@ -60,12 +60,14 @@ you now have an idea of how to run commands from your computer
 >}
 2. run it using the following lines successively:
 > javac WhereAmI.java
+
 > java WhereAmI
+
 > scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
    * note: the password it asks for is the same one from step 6 of step *Remotely Connecting*
 
 
-you now can copy files back and forth between computers: here, between the *client*--your computer--and the computer it's connected to in the CSE basement
+you now can copy files back and forth between computers: here, between the *client*-your computer-and the computer it's connected to in the CSE basement
 
 ## 5. Setting an SSH Key
 ## 6. Optimizing Remote Running
