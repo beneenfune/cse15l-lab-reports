@@ -3,9 +3,9 @@
 
 ## 1. Installing VScode
 
-![Image](https://code.visualstudio.com/assets/docs/languages/javascript/overview.png)
-
 1. go to [Visual Studio Code](https://code.visualstudio.com/) and follow instructions to install the application based on which system you have, including OSX for Mac and Windows for PC
+
+![Image](https://raw.githubusercontent.com/beneenfune/cse15l-lab-reports/39c01bf11159ec0acd1697ac1da3e0b817c1ed01/Screen%20Shot%202022-04-10%20at%2010.53.20%20PM.png)
 
 You now have VScode downloaded to your computer.
 
@@ -33,14 +33,14 @@ You now have your terminal connected to a computer in the CSE basement-a step ne
 * "cd"
 > * meaning 'change directory', used to change the current working directory.
 * "cd ~"
-> * ""^ but where ~ is the directory name
+> * meaning 'change directory'but where ~ is the directory name
 * "ls -lat"
 > * used to view the contents of a directory
 * "ls -a"
 > * used to view the contents of a directory, including the hidden files
 * "ls **directory**" 
 > * **directory** is "/home/linux/ieng6/cs15lsp22/**username**"-the **username** is from step 3 of step *Remotely Connecting*
-> * 
+> * used to view the contents of directory **directory**
 * "cp /home/linex/ieng6/cs15lsp22/public/hello.txt ~/"
 > * used to copy files and directories
 * "cat /home/linex/ieng6/cs15lsp22/public/hello.txt"
@@ -73,7 +73,7 @@ You now can copy files back and forth between computers: here, between the *clie
 
 1. run the following command and do not add a passphrase:
 > ssh-keygen
-* if you're using **Windows**, follow the extra ssh-add steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+* if you're using **Windows**, follow the extra *ssh-add* steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 2. with the two new files on your system-the private key and public key-now runthe followig command to copy the public key to the .ssh directory of your user account
 > ssh **cs15lsp22zzz@ieng6.ucsd.edu**
    * remember to replace the zzz with your personal 3 characters
