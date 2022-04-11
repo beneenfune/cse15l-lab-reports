@@ -37,6 +37,7 @@ You now have your terminal connected to a computer in the CSE basement-a step ne
 > * meaning 'change directory'but where ~ is the directory name
 * "ls -lat"
 > * used to view the contents of a directory
+![Image](https://github.com/beneenfune/cse15l-lab-reports/blob/3e7885b93540417e316b16f5740d79a1408fe82d/step%204%20ls.png)
 * "ls -a"
 > * used to view the contents of a directory, including the hidden files
 * "ls **directory**" 
@@ -46,7 +47,7 @@ You now have your terminal connected to a computer in the CSE basement-a step ne
 > * used to copy files and directories
 * "cat /home/linex/ieng6/cs15lsp22/public/hello.txt"
 > * used to read the data from the file and prints the content of the file
-
+![Image](https://github.com/beneenfune/cse15l-lab-reports/blob/3e7885b93540417e316b16f5740d79a1408fe82d/step%204%20cat.png)
 You now have an idea of how to run commands from your computer.
 
 ## 4. Moving Files with 'scp'
@@ -66,7 +67,7 @@ You now have an idea of how to run commands from your computer.
 > java WhereAmI
 > scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
    * note: the password it asks for is the same one from step 6 of step *Remotely Connecting*
-
+   ![Image](https://github.com/beneenfune/cse15l-lab-reports/blob/3e7885b93540417e316b16f5740d79a1408fe82d/step%205%201%20scp.png)
 
 You now can copy files back and forth between computers: here, between the *client*-your computer-and the computer it's connected to in the CSE basement.
 
@@ -75,9 +76,10 @@ You now can copy files back and forth between computers: here, between the *clie
 1. run the following command and do not add a passphrase:
 > ssh-keygen
 * if you're using **Windows**, follow the extra *ssh-add* steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-2. with the two new files on your system-the private key and public key-now runthe followig command to copy the public key to the .ssh directory of your user account
+2. with the two new files on your system-the private key and public key-now runthe following command to copy the public key to the .ssh directory of your user account
 > ssh **cs15lsp22zzz@ieng6.ucsd.edu**
    * remember to replace the zzz with your personal 3 characters
+   ![Image](https://github.com/beneenfune/cse15l-lab-reports/blob/3e7885b93540417e316b16f5740d79a1408fe82d/step%205%202%20ssh.png)
 
 You now are able to use ssh or scp here without having to enter your password each time.
 
