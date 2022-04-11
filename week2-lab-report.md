@@ -72,7 +72,7 @@ you now can copy files back and forth between computers: here, between the *clie
 1. run the following command and do not add a passphrase:
 > ssh-keygen
 * if you're using **Windows**, follow the extra ssh-add steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-3. with the two new files on your system-the private key and public key-now runthe followig command to copy the public key to the .ssh directory of your user account
+2. with the two new files on your system-the private key and public key-now runthe followig command to copy the public key to the .ssh directory of your user account
 > ssh **cs15lsp22zzz@ieng6.ucsd.edu**
    * remember to replace the zzz with your personal 3 characters
 
