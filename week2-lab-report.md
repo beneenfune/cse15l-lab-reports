@@ -37,7 +37,7 @@ You now have your terminal connected to a computer in the CSE basement-a step ne
 > * meaning 'change directory'but where ~ is the directory name
 * "ls -lat"
 > * used to view the contents of a directory
-![Image](step3ls.png)
+   ![Image](step3ls.png)
 * "ls -a"
 > * used to view the contents of a directory, including the hidden files
 * "ls **directory**" 
@@ -80,7 +80,7 @@ You now can copy files back and forth between computers: here, between the *clie
 2. with the two new files on your system-the private key and public key-now runthe following command to copy the public key to the .ssh directory of your user account
 > ssh **cs15lsp22zzz@ieng6.ucsd.edu**
    * remember to replace the zzz with your personal 3 characters
-   ![Image](step5sshscreenshot.png)
+![Image](step5sshscreenshot.png)
 
 You now are able to use ssh or scp here without having to enter your password each time.
 
