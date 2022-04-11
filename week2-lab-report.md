@@ -15,7 +15,7 @@ You now have VScode downloaded to your computer.
 1. look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php)
 * if you're using **Windows**, you must install OpenSSH [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 2. under 'Additional Accounts', click the button that starts with "cs15l"
-(Image)[fakjdfhaskfhjvjsadskljvav]
+![Image](file:///Users/BeneenFune/Desktop/293013BF-EBFA-4B97-8EBF-CE5C4424F9D4.JPEG)
 3. note your username-it should have the form **cs15lsp22zzz** where the zzz are personalized to your account.
 your **user@hostname** is your *username*@ieng6.ucsd.edu : 
 **cs15lsp22zzz@ieng6.ucsd.edu**
