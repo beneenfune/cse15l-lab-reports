@@ -65,8 +65,7 @@ you now have an idea of how to run commands from your computer
    * note: the password it asks for is the same one from step 6 of step *Remotely Connecting*
 
 
-you now can copy files back and forth between computers: here, between the *client*, your computer, and the computer it's connected to in the CSE basement
+you now can copy files back and forth between computers: here, between the *client*--your computer--and the computer it's connected to in the CSE basement
 
-1. 
 ## 5. Setting an SSH Key
 ## 6. Optimizing Remote Running
