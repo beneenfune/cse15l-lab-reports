@@ -3,6 +3,8 @@
 
 ## 1. Installing VScode
 
+(Image)[https://code.visualstudio.com/assets/docs/languages/javascript/overview.png]
+
 1. go to [Visual Studio Code](https://code.visualstudio.com/) and follow instructions to install the application based on which system you have, including OSX for Mac and Windows for PC
 
 You now have VScode downloaded to your computer.
