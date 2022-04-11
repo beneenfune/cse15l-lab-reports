@@ -48,6 +48,7 @@ You now have your terminal connected to a computer in the CSE basement-a step ne
 * "cat /home/linex/ieng6/cs15lsp22/public/hello.txt"
 > * used to read the data from the file and prints the content of the file
 ![Image](step3cat.png)
+
 You now have an idea of how to run commands from your computer.
 
 ## 4. Moving Files with 'scp'
