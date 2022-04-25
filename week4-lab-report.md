@@ -9,7 +9,7 @@ Test File for failure-inducing input:
 [Link](https://github.com/chw081/cse15l-Week4Report2/blob/main/test-file8.md)
 
 Symptom of failure-inducing input:
-![Image](output1.png)fasdfaasasdadasffasasfKJFHKJAHFJKHLSHBLJFHJ
+![Image](output1.png)
 
 * The relationship between the bug, the symptom, and the failure-inducing input is that because there is nothing in the brackets of the input, the example in the file should not be considered a correct link. It does not have image coding, which is how it would be a link available to the user, because it uses aired brackets first and paired parentheses that are right next to each other.
 
