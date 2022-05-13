@@ -1,5 +1,4 @@
 # How to log into a course-specific account on ieng6
-//needs at least 6 screenshots
 
 ## 1. Installing VScode
 
