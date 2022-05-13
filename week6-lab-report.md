@@ -38,7 +38,7 @@ The screenshot of
 ## Copy whole directories with *scp - r*
 The screenshot of copying the whole markdown-parse directory to your ieng6
 account
-* alternatively, use the line ## scp -r . ieng6:~/* ## where * is the desired directory to copy the whole directory to your ieng6 account
+* alternatively, use the line " scp -r . ieng6:~/* " where * is the desired directory to copy the whole directory to your ieng6 account
 ![Image](ss3.1.1.png)
 ![Image](ss3.1.2.png)
 
