@@ -19,8 +19,7 @@
 * How I turned it into a test in **MarkdownParseTest.java**
 * My implementation's corresponding output
 * Week 7 implementation's corresponding output
-* **Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.**
-a. 
+* *Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.* 
 
 ## Snippet 2
 ```
@@ -36,8 +35,7 @@ a.
 * How I turned it into a test in **MarkdownParseTest.java**
 * My implementation's corresponding output
 * Week 7 implementation's corresponding output
-* **Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.**
-a. kfasdf
+* *Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.* 
 
 ## Snippet 3
 ```
@@ -72,6 +70,5 @@ And then there's more text
 * How I turned it into a test in **MarkdownParseTest.java**
 * My implementation's corresponding output
 * Week 7 implementation's corresponding output
-* **Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
-a. favad
+* *Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.* 
 
