@@ -1,37 +1,13 @@
-What's up dawg
+## **CSE 15L Lab Reports**
 
-Here's the [formatting cheat sheet](https://commonmark.org/help/)
+# Week 2 Lab 1 Report
+[Link](https://beneenfune.github.io/cse15l-lab-reports/week2-lab-report.html)
 
-*this is italics*
+# Week 4 Lab 2 Report
+[Link](https://beneenfune.github.io/cse15l-lab-reports/week4-lab-report.html)
 
-**this is bold**
+# Week 6 Lab 3 Report
+[Link](https://beneenfune.github.io/cse15l-lab-reports/week6-lab-report.html)
 
-# this is heading 1
-
-## this is heading 2
-
-[this is linking] (https://www.youtube.com/)
-
-![Image](https://i.guim.co.uk/img/media/c63dddb413272fb6e8c308f0298c6333b3e2084f/0_139_4256_2554/master/4256.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=fed576179161a4ae8bf4dbe09ee40dc5)
-
-> this is blockquote
-
-* this
-* is 
-* bullet point list
-
-1. this
-2. is
-3. number list
-
-This is horizontal rule:
----
-
-this is 'inline code' with backticks
-
-
-
-# this is code block
-print '3 backticks or'
-print 'indent 4 spaces'
-
+# Week 8 Lab 4 Report
+[Link](https://beneenfune.github.io/cse15l-lab-reports/week8-lab-report.html)
