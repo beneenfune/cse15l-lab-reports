@@ -15,7 +15,7 @@ The link to [the reviewed repository](https://github.com/charvishukla/markdown_p
 [`code]`](ucsd.edu)
 ```
 * The test
-![Image](s1.how.3.png)
+![Image](s1.test.png)
 * My implementation's corresponding output
 ![Image](s1.mine.png)
 it did not pass
@@ -36,7 +36,7 @@ A small change I could do  would be to make it so that the getLink() method woul
 ```
 
 * The test
-![Image](s2.how.3.png)
+![Image](s2.test.png)
 * My implementation's corresponding output
 ![Image](s2.mine.png)
 it did not pass
@@ -76,7 +76,7 @@ And then there's more text
 ```
 
 * The test
-![Image](s3.how.3.png)
+![Image](s3.test.png)
 * My implementation's corresponding output
 ![Image](s3.mine.png)
 it did not pass
