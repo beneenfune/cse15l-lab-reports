@@ -16,23 +16,15 @@ The link to [the reviewed repository](https://github.com/charvishukla/markdown_p
 ```
 * The test
 ![Image](s1.how.3.png)
-* What it should produce
-![Image](s1.prod.png)
-* How I turned it into a test in **MarkdownParseTest.java** in both my and week 7's implementation
-I made the snippet in the remote ssh ieng6 server using *touch* and *vim*. 
-![Image](s1.how.1.png)
-After, I put the actual test into **MarkdownParseTest.java** using *vim*.
-![Image](s123.how.2.png)
-![Image](s1.how.3.png)
 * My implementation's corresponding output
-![Image](s1.my.png)
+![Image](s1.mine.png)
 it did not pass
-* Week 7 implementation's corresponding output
-![Image](s1.w7.png)
+* The other implementation's corresponding output
+![Image](s1.other.png)
 it did not pass
 
 * *Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.* 
-There is not a small change possible because locating all of the backticks will take more than 10 lines of code to do. It might even require a new function to do so in MarkdownParse.java. In addition to checking for the bacticks, we will have to chechk if there is an odd number of them or an even number of them. Also, we would have check if the back ticks are inside brackets or parentheses.
+A small change I could do  would be to make it so that the getLink() method would ignore the brackets that are found in side of a pair of backticks. This would make it sould that it doesn count the [a link....com) (from inside the snippet) as a link as it is would therefore miss the first bracket as it is between the two backticks.
 
 ## Snippet 2
 ```
@@ -45,23 +37,15 @@ There is not a small change possible because locating all of the backticks will 
 
 * The test
 ![Image](s2.how.3.png)
-* What it should produce
-![Image](s2.prod.png)
-* How I turned it into a test in **MarkdownParseTest.java** in both my and week 7's implementation
-I made the snippet in the remote ssh ieng6 server using *touch* and *vim*. 
-![Image](s2.how.1.png)
-After, I put the actual test into **MarkdownParseTest.java** using *vim*.
-![Image](s123.how.2.png)
-![Image](s2.how.3.png)
 * My implementation's corresponding output
-![Image](s2.my.png)
+![Image](s2.mine.png)
 it did not pass
 * Week 7 implementation's corresponding output
-![Image](s2.w7.png)
+![Image](s2.other.png)
 it did not pass
 
 * *Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.* 
-This code change would require a more involved change because it requires a through search of nested [] and (). We would have to use a loop to check for open brackets, open parentheses, closed brackets, and closed parentheses and in the correct manner of one open being in order of one closed being, whatever that may be.
+This code change would require a more involved change because it requires a through search of nested parentheses. We would have to use a loop to check for open brackets, open parentheses, closed brackets, and closed parentheses and in the correct manner of one open being in order of one closed being, whatever that may be. For example, we would have to distingiush between which closing parentheses is the true closing parentheses as there could be one, but not th true one, inside of the actual link.
 
 ## Snippet 3
 ```
@@ -93,20 +77,12 @@ And then there's more text
 
 * The test
 ![Image](s3.how.3.png)
-* What it should produce
-![Image](s3.prod.png)
-* How I turned it into a test in **MarkdownParseTest.java** in both my and week 7's implementation
-I made the snippet in the remote ssh ieng6 server using *touch* and *vim*. 
-![Image](s3.how.1.png)
-After, I put the actual test into **MarkdownParseTest.java** using *vim*.
-![Image](s123.how.2.png)
-![Image](s3.how.3.png)
 * My implementation's corresponding output
-![Image](s3.my.png)
+![Image](s3.mine.png)
 it did not pass
 * Week 7 implementation's corresponding output
-![Image](s3.w7.png)
+![Image](s3.other.png)
 it did not pass
 
 * *Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.* 
-This code change would also need a more involved change because it would need to check for multiple new lines at a time and need a way to bypass that in order to not include it in the bracket or parentheses consideration. If new lines weren't there the new line would have to be eliminated from the count.
+This code change would also need a more involved change because it would need to adjust to the issue of nested parentheses. The program, like for the code change in for snippet 2, would need to be able to distingiush between nested parentheses and the true parentheses and would therefore need a through algorithm to do so.
