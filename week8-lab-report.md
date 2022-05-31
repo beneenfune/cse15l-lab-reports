@@ -1,7 +1,7 @@
 # Lab Report 4 
 
-[The link to my markdown repository.](https://github.com/beneenfune/markdown-parser-my.git)
-[The link to the reviewed markdown repository from week 7.](https://github.com/beneenfune/markdown-parser.git)
+The link to [my markdown repository](https://github.com/beneenfune/markdown-parser.git).
+The link to [the reviewed repository](https://github.com/charvishukla/markdown_parser_2.git).
 
 
 ## Snippet 1
