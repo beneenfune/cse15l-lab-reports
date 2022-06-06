@@ -11,3 +11,6 @@
 
 ## Week 8
 [Lab 4 Report](https://beneenfune.github.io/cse15l-lab-reports/week8-lab-report.html)
+
+## Week 10
+[Lab 5 Report](https://beneenfune.github.io/cse15l-lab-reports/week10-lab-report.html)
